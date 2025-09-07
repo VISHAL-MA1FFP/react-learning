@@ -1,3 +1,7 @@
+// using react directly
+import React from "react";
+import ReactDOM from "react-dom/client"
+
 const element1=React.createElement("h1",{id:"first",className:"one",style:{backgroundColor:"black",color:"white"}},"hello world")
 const element= React.createElement("h1",{id:"first",className:"one",style:{backgroundColor:"black",color:"white"}},"hello tess")
 const element2= React.createElement("h1",{id:"first",className:"one",style:{backgroundColor:"black",color:"white"}},"hello tess")
